@@ -1,0 +1,43 @@
+﻿<head>
+    @await Html.PartialAsync("~/Views/Utilities/Utilities.cshtml")
+    <title>Formulario de Inicio de Sesión</title>
+    <link rel="stylesheet" href="css/Login.css">
+</head>
+<body>
+    <div class="container d-flex justify-content-center align-items-center vh-100">
+        <div class="login-form card p-4">
+            <h2 class="text-center">ToDo&nbsp;<i class="fa-regular fa-circle-check"></i></h2>
+            <form class="inputCredentials" action="/login" method="post">
+                <div class="form-group">
+                    <input type="text" id="username" name="username" class="form-control" placeholder="Nombre de usuario" required>
+                </div>
+                <div class="form-group">
+                    <input id="password" type="password" name="password" class="form-control" placeholder="Contraseña" required>
+                </div>
+                <button type="submit" class="btn btn-primary btn-block">Ingresar</button>
+            </form>
+            <label><a href="Index/register">Crear cuenta nueva</a></label>
+        </div>
+    </div>
+
+
+    <!-- Modal de alerta -->
+    @*     <div class="modal fade d-none" id="alertModal" tabindex="-1" aria-labelledby="alertModalLabel" aria-hidden="true">
+    *@
+    <div class="modal" id="alertModal" tabindex="-1" aria-labelledby="alertModalLabel" aria-hidden="true" style="font-family:'Urbanist' ">
+        <div class="modal-dialog" id="modalCustom">
+            <div class="modal-content">
+                <div class="modal-header" style="color:#007bff;display: flex;align-items: center;justify-content: flex-start">
+                    <i class="fa-regular fa-circle-check"></i>&nbsp;
+                    <h5 class="modal-title" id="alertModalLabel"></h5>
+                </div>
+                <div class="modal-body" id="alertMessage" style="color:#003785;font-weight:500">
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="js/Login.js" type="module"></script>
+</body>

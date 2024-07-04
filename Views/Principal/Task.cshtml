@@ -1,0 +1,99 @@
+﻿<head>
+    <title>Pantalla principal</title>
+    @await Html.PartialAsync("~/Views/Utilities/Utilities.cshtml")
+    <link rel="stylesheet" href="~/css/Task.css">
+</head>
+<body>
+
+    <nav class="navbar navbar-light menu">
+        <a class="navbar-brand" href="javascript:void(0)">
+            <h2 class="text-center">ToDo&nbsp;<i class="fa-regular fa-circle-check"></i></h2>
+        </a>
+    </nav>
+    <div class="sidebar">
+        <form class="sideForm">
+            <div class="option">
+                <label for="date">Fecha</label>
+                <input type="date" id="date">
+            </div>
+            <div class="option">
+                <label for="priority">Prioridad</label>
+                <select id="priority">
+                    <option value="0">-Seleccionar-</option>
+                    <option value="1">Alta</option>
+                    <option value="2">Media</option>
+                    <option value="3">Baja</option>
+                </select>
+            </div>
+            <div class="option">
+                <label for="status">Estado</label>
+                <select id="status">
+                    <option value="0">-Seleccionar-</option>
+                    <option value="1">Análisis</option>
+                    <option value="2">En Desarrollo</option>
+                    <option value="3">Terminado</option>
+                </select>
+            </div>
+            <div class="option">
+                <button type="button" id="btnBusqueda" class="btn btn-primary" style="margin-right: 5px;"><i class="fa-solid fa-magnifying-glass"></i></button>
+                <button type="button" class="btn btn-primary" id="add" style="margin-right: 5px;"><i class="fa-solid fa-square-plus"></i></button>
+            </div>
+        </form>
+    </div>
+    <div class="container">
+        <div class="row" id="taskContainer">
+
+        </div>
+    </div>
+
+    <!-- Modal de Crear Tarea -->
+    <div id="crearTareaModal">
+        <form class="tareaModal" name="tareaModal" action="/TaskRegister" method="post">
+            <div class="modal-content">
+                <button type="button" class="close-btn" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+                <div class="form-group">
+                    <label for="title">Título:</label>
+                    <input type="text" class="form-control" id="title" placeholder="Ingrese el título" required>
+                </div>
+                <div class="form-group">
+                    <label for="date">Fecha:</label>
+                    <input type="date" class="form-control" id="date">
+                </div>
+                <div class="form-group">
+                    <label for="priority">Prioridad:</label>
+                    <select class="form-control" id="priority">
+                        <option value="1">Alta</option>
+                        <option value="2">Media</option>
+                        <option value="3">Baja</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="state">Estado:</label>
+                    <select class="form-control" id="state">
+                        <option value="1">Análisis</option>
+                        <option value="2">En Desarrollo</option>
+                        <option value="3">Terminado</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="description">Descripción:</label>
+                    <textarea class="form-control" id="description" placeholder="Escribe aquí..." rows="10" required></textarea>
+                </div>
+                <div class="form-group d-none">
+                    <label for="task_id">tarea:</label>
+                    <input class="form-control" id="task_id">
+                </div>
+                <button type="submit" class="btn btn-primary"><i class="fa-solid fa-floppy-disk"></i></button>
+            </div>
+        </form>
+    </div>
+
+    <!-- Fondo oscuro detrás del modal -->
+    <div class="modal-backdrop"></div>
+
+
+    @await Html.PartialAsync("~/Views/Utilities/Modal.cshtml")
+    <script src="~/js/Task.js" type="module"></script>
+</body>

@@ -1,4 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using toDoList.Models.toDoList.Models;
 
 namespace toDoList.Models
 {
@@ -10,7 +11,7 @@ namespace toDoList.Models
         }
 
         public DbSet<W_USER> W_USER { get; set; }
-        //public DbSet<WTask> W_TASKS { get; set; }
+        public DbSet<W_TASK> W_TASK { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {

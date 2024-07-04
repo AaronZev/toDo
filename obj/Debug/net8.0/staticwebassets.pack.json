@@ -9,6 +9,10 @@
       "PackagePath": "staticwebassets\\css\\Login.css"
     },
     {
+      "Id": "C:\\SESREPOS\\toDo\\toDoList\\wwwroot\\css\\Task.css",
+      "PackagePath": "staticwebassets\\css\\Task.css"
+    },
+    {
       "Id": "C:\\SESREPOS\\toDo\\toDoList\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
@@ -23,6 +27,10 @@
     {
       "Id": "C:\\SESREPOS\\toDo\\toDoList\\wwwroot\\js\\Register.js",
       "PackagePath": "staticwebassets\\js\\Register.js"
+    },
+    {
+      "Id": "C:\\SESREPOS\\toDo\\toDoList\\wwwroot\\js\\Task.js",
+      "PackagePath": "staticwebassets\\js\\Task.js"
     },
     {
       "Id": "C:\\SESREPOS\\toDo\\toDoList\\wwwroot\\js\\site.js",

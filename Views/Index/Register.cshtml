@@ -1,9 +1,6 @@
-﻿<!DOCTYPE html>
-<html lang="es">
-<head>
+﻿<head>
     @await Html.PartialAsync("~/Views/Utilities/Utilities.cshtml")
     <title>Formulario de Registro</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="~/css/Login.css">
 </head>
 <body>
@@ -25,22 +22,6 @@
             <label><a href="/">Ya tengo una cuenta</a></label>
         </div>
     </div>
-
-
-    <div class="modal" id="alertModal" tabindex="-1" aria-labelledby="alertModalLabel" aria-hidden="true" style="font-family:'Urbanist' ">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-header" style="color:#007bff;display: flex;align-items: center;justify-content: flex-start">
-                    <i class="fa-regular fa-circle-check"></i>&nbsp;
-                    <h5 class="modal-title" id="alertModalLabel"></h5>
-                </div>
-                <div class="modal-body" id="alertMessage" style="color:#003785;font-weight:500">
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    @await Html.PartialAsync("~/Views/Utilities/Modal.cshtml")
     <script src="~/js/Register.js" type="module"></script>
 </body>
-</html>

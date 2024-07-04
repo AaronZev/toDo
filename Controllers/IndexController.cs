@@ -40,7 +40,7 @@ namespace toDoList.Controllers
 
                 if (user != null)
                 {
-                    return StatusCode(StatusCodes.Status200OK, new { isSucess = true, token = _utilities.generateJwt(user), title = "Éxito", message = "Loggeo Exitoso." });
+                    return StatusCode(StatusCodes.Status200OK, new { isSucess = true, token = _utilities.generateJwt(user), title = "Éxito", message = "Loggeo Exitoso.", data = user });
                 }
                 else
                 {

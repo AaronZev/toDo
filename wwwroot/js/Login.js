@@ -1,5 +1,4 @@
-﻿
-$(document).ready(function () {
+﻿$(document).ready(function () {
 
     $('.inputCredentials').submit(function (event) {
         event.preventDefault();
@@ -14,7 +13,12 @@ $(document).ready(function () {
                 password: password
             },
             success: function (response) {
-                showAlert(response.title,response.message)
+                if (response.token != '') {
+                    window.location.href = '/Principal/Task';
+                } else {
+                    showAlert(response.title, response.message);
+                }
+
             },
             error: function (error) {
                 showAlert('Error', 'Ocurrió un error en el loggeo')
@@ -24,7 +28,7 @@ $(document).ready(function () {
     });
 
     function showAlert(title, message) {
-        $('#alertModalText').text(title);
+        $('#alertModalLabel').text(title);
         $('#alertMessage').text(message);
         $('#alertModal').removeClass('d-none');
         $('#alertModal').modal('show');

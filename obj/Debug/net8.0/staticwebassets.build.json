@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Fr5dUZfb8bYt/e4NXT0dGv+JNaVAnkD+ApfWeZIWg+U=",
+  "Hash": "XQyvZqLZU00/uxv+wjLC+w4fYFs9vGJ+OaVaTGj5PpM=",
   "Source": "toDoList",
   "BasePath": "_content/toDoList",
   "Mode": "Default",
@@ -93,6 +93,25 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
+      "Identity": "C:\\SESREPOS\\toDo\\toDoList\\wwwroot\\css\\Task.css",
+      "SourceId": "toDoList",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\SESREPOS\\toDo\\toDoList\\wwwroot\\",
+      "BasePath": "_content/toDoList",
+      "RelativePath": "css/Task.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\Task.css"
+    },
+    {
       "Identity": "C:\\SESREPOS\\toDo\\toDoList\\wwwroot\\favicon.ico",
       "SourceId": "toDoList",
       "SourceType": "Discovered",
@@ -167,6 +186,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\site.js"
+    },
+    {
+      "Identity": "C:\\SESREPOS\\toDo\\toDoList\\wwwroot\\js\\Task.js",
+      "SourceId": "toDoList",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\SESREPOS\\toDo\\toDoList\\wwwroot\\",
+      "BasePath": "_content/toDoList",
+      "RelativePath": "js/Task.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\Task.js"
     },
     {
       "Identity": "C:\\SESREPOS\\toDo\\toDoList\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",

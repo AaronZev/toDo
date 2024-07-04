@@ -3,32 +3,44 @@
   "WorkspaceRootPath": "C:\\SESREPOS\\toDo\\toDoList\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C343A17E-20E1-475E-8DF2-75AACB978440}|toDoList.csproj|c:\\sesrepos\\todo\\todolist\\wwwroot\\js\\login.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{C343A17E-20E1-475E-8DF2-75AACB978440}|toDoList.csproj|solutionrelative:wwwroot\\js\\login.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+      "AbsoluteMoniker": "D:0:0:{C343A17E-20E1-475E-8DF2-75AACB978440}|toDoList.csproj|c:\\sesrepos\\todo\\todolist\\wwwroot\\js\\task.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{C343A17E-20E1-475E-8DF2-75AACB978440}|toDoList.csproj|solutionrelative:wwwroot\\js\\task.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C343A17E-20E1-475E-8DF2-75AACB978440}|toDoList.csproj|c:\\sesrepos\\todo\\todolist\\wwwroot\\js\\register.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{C343A17E-20E1-475E-8DF2-75AACB978440}|toDoList.csproj|solutionrelative:wwwroot\\js\\register.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+      "AbsoluteMoniker": "D:0:0:{C343A17E-20E1-475E-8DF2-75AACB978440}|toDoList.csproj|c:\\sesrepos\\todo\\todolist\\models\\w_user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C343A17E-20E1-475E-8DF2-75AACB978440}|toDoList.csproj|solutionrelative:models\\w_user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C343A17E-20E1-475E-8DF2-75AACB978440}|toDoList.csproj|c:\\sesrepos\\todo\\todolist\\views\\utilities\\utilities.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{C343A17E-20E1-475E-8DF2-75AACB978440}|toDoList.csproj|solutionrelative:views\\utilities\\utilities.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{C343A17E-20E1-475E-8DF2-75AACB978440}|toDoList.csproj|c:\\sesrepos\\todo\\todolist\\views\\principal\\task.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C343A17E-20E1-475E-8DF2-75AACB978440}|toDoList.csproj|solutionrelative:views\\principal\\task.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C343A17E-20E1-475E-8DF2-75AACB978440}|toDoList.csproj|c:\\sesrepos\\todo\\todolist\\controllers\\indexcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C343A17E-20E1-475E-8DF2-75AACB978440}|toDoList.csproj|solutionrelative:controllers\\indexcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C343A17E-20E1-475E-8DF2-75AACB978440}|toDoList.csproj|c:\\sesrepos\\todo\\todolist\\controllers\\principalcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C343A17E-20E1-475E-8DF2-75AACB978440}|toDoList.csproj|solutionrelative:controllers\\principalcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C343A17E-20E1-475E-8DF2-75AACB978440}|toDoList.csproj|c:\\sesrepos\\todo\\todolist\\wwwroot\\css\\login.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{C343A17E-20E1-475E-8DF2-75AACB978440}|toDoList.csproj|solutionrelative:wwwroot\\css\\login.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C343A17E-20E1-475E-8DF2-75AACB978440}|toDoList.csproj|c:\\sesrepos\\todo\\todolist\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{C343A17E-20E1-475E-8DF2-75AACB978440}|toDoList.csproj|solutionrelative:wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C343A17E-20E1-475E-8DF2-75AACB978440}|toDoList.csproj|c:\\sesrepos\\todo\\todolist\\wwwroot\\css\\task.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{C343A17E-20E1-475E-8DF2-75AACB978440}|toDoList.csproj|solutionrelative:wwwroot\\css\\task.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C343A17E-20E1-475E-8DF2-75AACB978440}|toDoList.csproj|c:\\sesrepos\\todo\\todolist\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{C343A17E-20E1-475E-8DF2-75AACB978440}|toDoList.csproj|solutionrelative:wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C343A17E-20E1-475E-8DF2-75AACB978440}|toDoList.csproj|c:\\sesrepos\\todo\\todolist\\views\\index\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{C343A17E-20E1-475E-8DF2-75AACB978440}|toDoList.csproj|solutionrelative:views\\index\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C343A17E-20E1-475E-8DF2-75AACB978440}|toDoList.csproj|c:\\sesrepos\\todo\\todolist\\views\\index\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{C343A17E-20E1-475E-8DF2-75AACB978440}|toDoList.csproj|solutionrelative:views\\index\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C343A17E-20E1-475E-8DF2-75AACB978440}|toDoList.csproj|c:\\sesrepos\\todo\\todolist\\wwwroot\\css\\login.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{C343A17E-20E1-475E-8DF2-75AACB978440}|toDoList.csproj|solutionrelative:wwwroot\\css\\login.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+      "AbsoluteMoniker": "D:0:0:{C343A17E-20E1-475E-8DF2-75AACB978440}|toDoList.csproj|c:\\sesrepos\\todo\\todolist\\models\\w_task.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C343A17E-20E1-475E-8DF2-75AACB978440}|toDoList.csproj|solutionrelative:models\\w_task.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,98 +50,136 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Register.js",
-              "DocumentMoniker": "C:\\SESREPOS\\toDo\\toDoList\\wwwroot\\js\\Register.js",
-              "RelativeDocumentMoniker": "wwwroot\\js\\Register.js",
-              "ToolTip": "C:\\SESREPOS\\toDo\\toDoList\\wwwroot\\js\\Register.js",
-              "RelativeToolTip": "wwwroot\\js\\Register.js",
-              "ViewState": "AQIAAAcAAAAAAAAAAAAgwBMAAAAkAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2024-07-03T04:40:11.574Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Login.js",
-              "DocumentMoniker": "C:\\SESREPOS\\toDo\\toDoList\\wwwroot\\js\\Login.js",
-              "RelativeDocumentMoniker": "wwwroot\\js\\Login.js",
-              "ToolTip": "C:\\SESREPOS\\toDo\\toDoList\\wwwroot\\js\\Login.js",
-              "RelativeToolTip": "wwwroot\\js\\Login.js",
-              "ViewState": "AQIAAAcAAAAAAAAAAAAgwBsAAAAnAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2024-07-03T05:56:43.232Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "IndexController.cs",
-              "DocumentMoniker": "C:\\SESREPOS\\toDo\\toDoList\\Controllers\\IndexController.cs",
-              "RelativeDocumentMoniker": "Controllers\\IndexController.cs",
-              "ToolTip": "C:\\SESREPOS\\toDo\\toDoList\\Controllers\\IndexController.cs",
-              "RelativeToolTip": "Controllers\\IndexController.cs",
-              "ViewState": "AQIAAEEAAAAAAAAAAAAwwC0AAAARAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-03T04:56:54.334Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 4,
               "Title": "Login.css",
               "DocumentMoniker": "C:\\SESREPOS\\toDo\\toDoList\\wwwroot\\css\\Login.css",
               "RelativeDocumentMoniker": "wwwroot\\css\\Login.css",
               "ToolTip": "C:\\SESREPOS\\toDo\\toDoList\\wwwroot\\css\\Login.css",
               "RelativeToolTip": "wwwroot\\css\\Login.css",
-              "ViewState": "AQIAAAEAAAAAAAAAAAAUwBwAAAAZAAAA",
+              "ViewState": "AQIAAEsAAAAAAAAAAAAAAAsAAAAwAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-07-03T04:34:43.519Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Utilities.cshtml",
-              "DocumentMoniker": "C:\\SESREPOS\\toDo\\toDoList\\Views\\Utilities\\Utilities.cshtml",
-              "RelativeDocumentMoniker": "Views\\Utilities\\Utilities.cshtml",
-              "ToolTip": "C:\\SESREPOS\\toDo\\toDoList\\Views\\Utilities\\Utilities.cshtml",
-              "RelativeToolTip": "Views\\Utilities\\Utilities.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAABWAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-03T04:23:18.279Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Register.cshtml",
-              "DocumentMoniker": "C:\\SESREPOS\\toDo\\toDoList\\Views\\Index\\Register.cshtml",
-              "RelativeDocumentMoniker": "Views\\Index\\Register.cshtml",
-              "ToolTip": "C:\\SESREPOS\\toDo\\toDoList\\Views\\Index\\Register.cshtml",
-              "RelativeToolTip": "Views\\Index\\Register.cshtml",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAAACoAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-03T04:21:32.833Z",
+              "WhenOpened": "2024-07-04T12:06:03.131Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "Login.cshtml",
-              "DocumentMoniker": "C:\\SESREPOS\\toDo\\toDoList\\Views\\Index\\Login.cshtml",
-              "RelativeDocumentMoniker": "Views\\Index\\Login.cshtml",
-              "ToolTip": "C:\\SESREPOS\\toDo\\toDoList\\Views\\Index\\Login.cshtml",
-              "RelativeToolTip": "Views\\Index\\Login.cshtml",
-              "ViewState": "AQIAABMAAAAAAAAAAAAkwB8AAABGAAAA",
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\SESREPOS\\toDo\\toDoList\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "wwwroot\\css\\site.css",
+              "ToolTip": "C:\\SESREPOS\\toDo\\toDoList\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "wwwroot\\css\\site.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-07-04T12:06:02.514Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "site.js",
+              "DocumentMoniker": "C:\\SESREPOS\\toDo\\toDoList\\wwwroot\\js\\site.js",
+              "RelativeDocumentMoniker": "wwwroot\\js\\site.js",
+              "ToolTip": "C:\\SESREPOS\\toDo\\toDoList\\wwwroot\\js\\site.js",
+              "RelativeToolTip": "wwwroot\\js\\site.js",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-07-04T12:05:59.434Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "W_TASK.cs",
+              "DocumentMoniker": "C:\\SESREPOS\\toDo\\toDoList\\Models\\W_TASK.cs",
+              "RelativeDocumentMoniker": "Models\\W_TASK.cs",
+              "ToolTip": "C:\\SESREPOS\\toDo\\toDoList\\Models\\W_TASK.cs",
+              "RelativeToolTip": "Models\\W_TASK.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-04T10:37:15.586Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "W_USER.cs",
+              "DocumentMoniker": "C:\\SESREPOS\\toDo\\toDoList\\Models\\W_USER.cs",
+              "RelativeDocumentMoniker": "Models\\W_USER.cs",
+              "ToolTip": "C:\\SESREPOS\\toDo\\toDoList\\Models\\W_USER.cs",
+              "RelativeToolTip": "Models\\W_USER.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-04T11:36:07.927Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Task.js",
+              "DocumentMoniker": "C:\\SESREPOS\\toDo\\toDoList\\wwwroot\\js\\Task.js",
+              "RelativeDocumentMoniker": "wwwroot\\js\\Task.js",
+              "ToolTip": "C:\\SESREPOS\\toDo\\toDoList\\wwwroot\\js\\Task.js",
+              "RelativeToolTip": "wwwroot\\js\\Task.js",
+              "ViewState": "AQIAACIAAAAAAAAAAAAowDQAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-07-04T09:06:39.61Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Task.css",
+              "DocumentMoniker": "C:\\SESREPOS\\toDo\\toDoList\\wwwroot\\css\\Task.css",
+              "RelativeDocumentMoniker": "wwwroot\\css\\Task.css",
+              "ToolTip": "C:\\SESREPOS\\toDo\\toDoList\\wwwroot\\css\\Task.css",
+              "RelativeToolTip": "wwwroot\\css\\Task.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-07-04T09:28:52.039Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Task.cshtml",
+              "DocumentMoniker": "C:\\SESREPOS\\toDo\\toDoList\\Views\\Principal\\Task.cshtml",
+              "RelativeDocumentMoniker": "Views\\Principal\\Task.cshtml",
+              "ToolTip": "C:\\SESREPOS\\toDo\\toDoList\\Views\\Principal\\Task.cshtml",
+              "RelativeToolTip": "Views\\Principal\\Task.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAFoAAAAKAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-03T04:21:45.189Z",
+              "WhenOpened": "2024-07-04T09:14:41.804Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PrincipalController.cs",
+              "DocumentMoniker": "C:\\SESREPOS\\toDo\\toDoList\\Controllers\\PrincipalController.cs",
+              "RelativeDocumentMoniker": "Controllers\\PrincipalController.cs",
+              "ToolTip": "C:\\SESREPOS\\toDo\\toDoList\\Controllers\\PrincipalController.cs",
+              "RelativeToolTip": "Controllers\\PrincipalController.cs",
+              "ViewState": "AQIAABoAAAAAAAAAAAAxwD0AAAA+AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-04T09:06:43.107Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "C:\\SESREPOS\\toDo\\toDoList\\Views\\Index\\Register.cshtml",
+              "RelativeDocumentMoniker": "Views\\Index\\Register.cshtml",
+              "ToolTip": "C:\\SESREPOS\\toDo\\toDoList\\Views\\Index\\Register.cshtml",
+              "RelativeToolTip": "Views\\Index\\Register.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-04T09:14:42.789Z",
               "EditorCaption": ""
             }
           ]

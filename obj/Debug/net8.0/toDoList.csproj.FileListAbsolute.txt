@@ -253,3 +253,4 @@ C:\SESREPOS\toDo\toDoList\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Window
 C:\SESREPOS\toDo\toDoList\bin\Debug\net8.0\package-lock.json
 C:\SESREPOS\toDo\toDoList\bin\Debug\net8.0\package.json
 C:\SESREPOS\toDo\toDoList\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\SESREPOS\toDo\toDoList\obj\Debug\net8.0\toDoList.sourcelink.json

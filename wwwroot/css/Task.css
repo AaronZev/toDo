@@ -1,0 +1,176 @@
+﻿body {
+    font-family: 'Urbanist', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.menu {
+    background-color: #2196f3 !important;
+}
+
+h2 {
+    color: white;
+}
+
+.navbar {
+    justify-content: center !important;
+}
+
+.col-sm-4 {
+    padding: 20px;
+}
+
+.row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+    justify-content: space-around;
+}
+
+.col {
+    flex-basis: 0;
+    flex-grow: 1;
+    display: flex;
+    max-width: 100%;
+    justify-content: flex-start;
+}
+
+.row.custom {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sidebar {
+    width: 250px;
+    height: 100vh;
+    background-color: #2196f3;
+    color: white;
+    display: none; 
+    flex-direction: column;
+    padding: 20px;
+    position: fixed;
+    z-index: 1;
+    margin-top: 71px;
+}
+
+    .sidebar h2 {
+        text-align: center;
+    }
+
+    .sidebar .option {
+        margin: 10px 0;
+    }
+
+        .sidebar .option label {
+            display: block;
+            margin-bottom: 5px;
+        }
+
+        .sidebar .option select,
+        .sidebar .option input {
+            width: 100%;
+            padding: 8px;
+            border: none;
+            border-radius: 4px;
+        }
+
+.content {
+    flex: 1;
+    padding: 20px;
+}
+
+.text-center {
+    text-align: center !important;
+    font-weight: 700 !important;
+}
+
+
+/*Modal de Creación*/
+
+textarea {
+    font-family: 'Urbanist';
+    width: 100%;
+    height: max-content;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: none;
+    box-sizing: border-box;
+}
+
+.card {
+    background: #FFFFFF;
+    box-shadow: 0px 4px 25px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+}
+
+.close-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+#crearTareaModal {
+    display: none; 
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1050; 
+    width: 80%; 
+    max-width: 600px; 
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+    padding: 20px;
+}
+
+.modal-backdrop {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1040;
+}
+
+.modal-content {
+    overflow: auto; 
+    border: none;
+}
+
+.custom-card {
+    height: 300px;
+}
+
+.custom-title {
+    font-size: 1.25rem;
+    margin: 0 auto; 
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card-text {
+    font-size: 0.875rem; 
+}
+
+.btn {
+    font-size: 0.875rem; 
+}
+

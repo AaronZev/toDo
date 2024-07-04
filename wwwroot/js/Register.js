@@ -33,7 +33,6 @@
         $('#alertMessage').text(message);
         $('#alertModal').removeClass('d-none');
         $('#alertModal').modal('show');
-
         setTimeout(function () {
             $('#alertModal').modal('hide');
         }, 2000);

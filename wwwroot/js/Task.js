@@ -142,7 +142,7 @@ $('#btnBusqueda').on('click', function () {
     fnGenerarCards(titulo, fecha, estado, prioridad);
 });
 
-$('form.tareaModal').submit(function (event) {
+$('form.tareaModal').on('submit',(function (event) {
     event.preventDefault();
 
     var form = $(this);
@@ -197,7 +197,7 @@ $('form.tareaModal').submit(function (event) {
             showAlert('Error', 'Ocurrió un error al ejecutar la solicitud.');
         }
     });
-});
+}));
 
 function showAlert(title, message) {
     $('#alertModalLabel').text(title);
@@ -261,6 +261,15 @@ $(document).on('click', '#btn-ver', function () {
     });
 
 });
-$(document).ready(function () {
+
+fnGenerarCards();
+
+$(document).on('ready', function () {
     fnGenerarCards();
 });
+
+
+$('#btnCerrarSesion').on('click', function () {
+    localStorage.clear();
+    window.location.href = '/';
+})
